@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MM2 Harvester</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #141420;
+      color: #f0f0f0;
+    }
+
+    header {
+      background: #1f1f30;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #7c4dff;
+    }
+
+    .nav-btns button {
+      background: #7c4dff;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #b9aaff;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .game-preview {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 60px 0;
+      flex-wrap: wrap;
+    }
+
+    .game-card {
+      background: #1e1e2e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 0 10px #000;
+      transition: 0.3s ease;
+    }
+
+    .game-card:hover {
+      transform: scale(1.05);
+    }
+
+    .game-card h3 {
+      color: #fff;
+    }
+
+    .game-card p {
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MM2 Harvester</div>
+    <div class="nav-btns">
+      <button>Login</button>
+      <button>Register</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to MM2 Wagering Arena</h1>
+    <p>Deposit your Murder Mystery 2 items, place your bets, and play games like Coinflip and Jackpot. Built for legends.</p>
+  </section>
+
+  <section class="game-preview">
+    <div class="game-card">
+      <h3>Coinflip</h3>
+      <p>Battle it out 1v1—winner takes all!</p>
+    </div>
+    <div class="game-card">
+      <h3>Jackpot</h3>
+      <p>Everyone tosses in their items. One walks away rich.</p>
+    </div>
+  </section>
+</body>
+</html>
